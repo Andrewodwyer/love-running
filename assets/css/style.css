@@ -11,12 +11,11 @@ body {
     flex-direction: column;
     /* generic project style */
     color: #3a3a3a;
-
 }
 
 /* header */
 header {
-    background-color: aqua;
+    background-color: red;
 }
 
 /* main */
