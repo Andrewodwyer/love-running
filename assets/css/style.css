@@ -113,6 +113,23 @@ main {
     color: #ffffff;
 }
 
+#reasons {
+    margin: 20 auto;
+} 
+
+h2 {
+    font-size: 280%;
+}
+
+p {
+    padding: 0 20px
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
