@@ -235,3 +235,35 @@ hr {
         border-bottom: solid 1px #3a3a3a;
     }
 }
+
+/* Large device (screens 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* image flex-grow is 0 and mental div benefit is pushed infront by using 1 */
+
+    #benefits > div {
+        flex: 1; 
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-mental {
+        order: 1;
+    } 
+    /*place the mental and physical divs in padding*/
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
+}
