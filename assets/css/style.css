@@ -172,6 +172,8 @@ hr {
     Each div will expand to fill the available space on its row */ 
     flex-basis: 200px;
     flex-grow: 1;
+    /* Creates a grid of meetup times divs over the background image */
+    border: 2px solid white;
 }
 /* h3 was set earlier to black for all h3s, times h3 is used to target the color in the times section
 Override the heading colour set in general styles */ 
