@@ -211,6 +211,14 @@ Override the heading colour set in general styles */
     color: #3a3a3a
 }
 
+/* media quary: large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* media quary: tablet and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /* Header */
@@ -269,11 +277,23 @@ Override the heading colour set in general styles */
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 /* Large device (laptop and desktop, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: solid 1px #3a3a3a;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
 }
 
