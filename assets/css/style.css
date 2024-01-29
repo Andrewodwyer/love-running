@@ -184,6 +184,18 @@ Override the heading colour set in general styles */
 #times h3 {
     color:#fafafa
 }
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    /* line-height is to make sure the alt text is visable if the photo doen't show because of source issue */
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
