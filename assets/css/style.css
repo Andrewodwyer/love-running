@@ -217,20 +217,39 @@ Override the heading colour set in general styles */
 
 /* signup page */
 #signup {
-    background: url("../images/signup-image.webp") no-repeat center center/cover;
+    background: url("../images/signup-image.webp");
+    background-size: cover;
     background-position: 75%;
+    padding: 20px 10% 0 10%;
     flex-grow: 1;
-}
-
-#signup h2 {
-    color: #fafafa;
-    margin: 20px;
 }
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(60,60,60, .6);
     padding: 30px
+}
+
+#signup-form h2 {
+    color: #fafafa;
+    margin: 20px;
+}
+
+.text-input {
+    background-color:transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 5px 0 20px 0;
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    size: 100%;
 }
 
 /* media quary: large or landscape phones (576px and up)*/
